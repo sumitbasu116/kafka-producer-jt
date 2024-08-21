@@ -1,3 +1,20 @@
+Configure your Git username and email:
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
 
-
+Initialize Git in Your Local Directory
+cd /path/to/your/project
+Initialize Git in the directory:
+git init
+Create a New Repository on GitHub
+Go to GitHub and sign in and create a new repo with the same name of your local project.
+Add the GitHub Repository as a Remote: 
 git remote add origin https://github.com/sumitbasu116/kafka-producer-jt.git
+
+Stage and Commit Your Changes:
+git add .
+git commit -m "Initial commit"
+Push Your Code to GitHub:
+git push -u origin main
+If your repository uses a different branch name, 
+replace main with the correct branch name (e.g., master).
