@@ -1,3 +1,6 @@
+In Windows:
+First goto the particular Kafka windows distribution folder,for example:
+E:\kafka\kafka_2.12-3.4.0\bin\windows
 To start the zookeeper server:
 ./zookeeper-server-start.bat ../../config/zookeeper.properties
 
